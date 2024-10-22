@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+/*Основа*/
+html, body {
+    height: 100%;
+}
+body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    color: #959A9D;
+}
+a {
+    color: #4B5258;
+    text-decoration: none;
+}
+.header-top-phone a:hover {
+    text-decoration: underline;
+}
+.wrapper {
+    min-height: 100%;
+    flex-direction: column;
+}
+main.main {
+    flex: 1 1 auto;
+}
+
+/*Хэдр*/
+ul.social-icons {
+    list-style: none;
+}
+ul.social-icons li {
+    margin-right: 11px;
+}
+.header-top-data .form-control {
+    color: #959A9D;
+}
+
+
+/*Бургер меню*/
+.navbar-brand .section-title {
+    color: #4B5258;
+}
+.container-logo {
+    margin-left: 3px;
+    width: 137px;
+    height: 40px;
+}
+
+
+/*Карточки1*/
+section {
+    padding: 40px 0;
+}
+.section-title {
+    color: #4B5258;
+}
+.advantages .items {
+    margin-top: 60px;
+}
+.advantages .items .item {
+    background-color: #F8F9FA;
+    padding: 2rem;
+    flex-direction: column;
+    height: 100%;
+    transition: all .3s;
+    border-radius: 20px;
+}
+.advantages .items .item:hover {
+    box-shadow: 0 17px 33px -20px rgb(0, 0, 0, .7);
+    border-radius: 20px;
+}
+.advantages i {
+    font-size: 60px;
+}
+
+
+/*Аккордеон*/
+.experience {
+    font-family: 'Montserrat', sans-serif;
+    color: #4B5258;
+
+}
+.accordion {
+    margin: 15px;
+    border: 20px solid #F8F9FA;
+    border-radius: 20px;
+}
+
